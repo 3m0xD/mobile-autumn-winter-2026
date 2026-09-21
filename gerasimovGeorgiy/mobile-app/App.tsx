@@ -34,8 +34,8 @@ export default function App() {
           tabBarInactiveTintColor: colors.textSecondary,
         }}
       >
-        <Tab.Screen name="Counter" component={CounterScreen} options={{ title: 'Counter' }} />
         <Tab.Screen name="Labs" component={HelloWorldScreen} options={{ title: 'Labs' }} />
+        <Tab.Screen name="Counter" component={CounterScreen} options={{ title: 'Counter' }} />
         <Tab.Screen name="About" component={AboutScreen} options={{ title: 'About' }} />
       </Tab.Navigator>
     </NavigationContainer>
