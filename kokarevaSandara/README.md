@@ -36,5 +36,5 @@ UI: число по центру; кнопки Increment / Decrement / Reset.
 
 ## Пара 2
 - Сделал Welcome-экран
-- Подключил Bottom Tabs: Home / Labs / …
-- Чем пользовался (ИИ / сам): …
+- Подключил Bottom Tabs: Home / Labs / About
+- Чем пользовался (ИИ / сам): сам
