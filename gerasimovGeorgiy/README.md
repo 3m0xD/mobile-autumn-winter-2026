@@ -1,34 +1,31 @@
-# Lab 0 — Hello World
+# gerasimovGeorgiy
 
-Мобильное приложение курса (React Native + Expo + TypeScript).
+Учебное мобильное приложение курса (React Native + Expo + TypeScript).
+
+## Папки
+
+```
+gerasimovGeorgiy/
+├── README.md
+├── curs/                 # конспекты пар
+│   ├── para1/
+│   └── para2/
+└── mobile-app/           # Expo-проект
+    ├── .cursor/          # правила для Cursor
+    ├── SPECS.md          # объединённая спецификация
+    ├── App.tsx           # Bottom Tabs
+    └── src/screens/      # Counter, Labs (Hello World), About, Welcome
+```
 
 ## Запуск
-
-1. Установите Node.js LTS (если не установлен)
-2. Установите зависимости:
 
 ```bash
 cd mobile-app
 npm install
+npm run ios      # iOS Simulator
+npm run android  # Android Emulator
+npm run web      # браузер
+npm start        # Expo Go
 ```
 
-3. Запустите приложение:
-
-```bash
-npm run ios     # iOS Simulator (macOS + Xcode)
-npm run android # Android Emulator (Android Studio)
-npm run web     # браузер
-npm start       # Expo Dev Tools, можно открыть в Expo Go
-```
-
-## Структура
-
-- `mobile-app` — Expo-проект
-- `mobile-app/App.tsx` — корневой компонент
-- `mobile-app/src/screens/HelloWorld` — стартовый экран Hello World
-- `specs/001-mobile-app/spec.md` — спецификация проекта
-
-## Заметки
-
-- Для iOS нужен Xcode, для Android — Android Studio и эмулятор/устройство.
-- Можно отсканировать QR-код Expo Go на телефоне и запустить без эмулятора.
+Для iOS нужен Xcode, для Android — Android Studio. Можно открыть проект в Expo Go по QR-коду.

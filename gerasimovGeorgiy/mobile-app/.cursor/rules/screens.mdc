@@ -1,0 +1,20 @@
+---
+description: Соглашения для экранов React Native
+globs: src/screens/**/*.tsx
+alwaysApply: false
+---
+
+# Экраны
+
+- Функциональный компонент, default export
+- Хуки только на верхнем уровне, без мутации state напрямую
+- Цвета из `src/theme/colors.ts`, не хардкодить `#fff` / `#111`
+- Счётчик: `setCount(c => …)`, `−` не ниже 0
+
+```tsx
+// ❌
+count++
+
+// ✅
+setCount((c) => c + 1)
+```
